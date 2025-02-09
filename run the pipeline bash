@@ -1,0 +1,4 @@
+python src/data_ingestion.py
+python src/data_processing.py
+python src/data_loading.py
+python src/analytics_query.py

@@ -1,0 +1,10 @@
+api:
+  base_url: "https://www.alphavantage.co/query"
+  api_key: "your_alpha_vantage_api_key"
+
+database:
+  url: "sqlite:///data/stocks_data.db"
+
+kafka:
+  broker: "localhost:9092"
+  topic: "stock_data"
